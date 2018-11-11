@@ -1,0 +1,19 @@
+*{
+  text-align: center;
+}
+h1 {
+  font-size: 200px;
+}
+body {
+  margin-left:200px;
+  margin-top:200px;
+  margin-bottom:200px;
+  max width: 1000px;
+}
+.photo_grid {
+  onClick: onClick(this);
+  opacity: 0.5;
+}
+.photo_grid:hover {
+  opacity: 1.0;
+}
