@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: ;
 }
 h1 {
   font-size: 40px;
@@ -7,7 +7,7 @@ h1 {
 }
 
 body {
-  max-width: 900px;
+  max-width: ;
   margin-left:;
   margin-top:;
   margin-bottom:;
@@ -16,7 +16,7 @@ body {
 
 .container {
   position:relative;
-  width: 90%;
+  width: 100%;
 }
 
 .img-responsive {
@@ -25,7 +25,7 @@ body {
   position:relative;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 180px;
+  height: 200px;
   width:100%;
 }
 
@@ -42,15 +42,12 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   font-family: ;
-  line-height: 150px;
+  line-height: 190px;
 }
 
-.container:hover .img-responsive {
-  opacity: 0.5;
-}
 
 .container:hover .middle {
   opacity: 1;
