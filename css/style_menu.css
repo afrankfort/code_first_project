@@ -54,7 +54,12 @@ body {
 }
 
 #grid-image {
-  height: 200px;
-  width: 250px;
-  object-fit: fill;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.padding-0 {
+  padding-right:0;
+    padding-left:0;
 }
