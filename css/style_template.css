@@ -1,0 +1,18 @@
+.color-info {
+    border: 3px solid black;
+}
+
+
+#panels_blue {
+    background-color: #A2F3FF;
+	margin-bottom: 30px;
+}
+#panels_yellow {
+  background-color: #FFE1B2;
+margin-bottom: 30px;
+}
+#panels_green {
+  background-color: #A2FFC8;
+margin-bottom: 30px;
+
+}
