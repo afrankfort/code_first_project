@@ -1,9 +1,7 @@
-* {
-  box-sizing: ;
-}
 h1 {
   font-size: 40px;
   text-align: center;
+  color: grey;
 }
 
 body {
@@ -12,6 +10,7 @@ body {
   margin-top:;
   margin-bottom:;
   max width: ;
+  background-color: #FFE1B2;
 }
 
 .container {
@@ -25,8 +24,6 @@ body {
   position:relative;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 200px;
-  width:100%;
 }
 
 .middle {
@@ -60,6 +57,7 @@ body {
 }
 
 .padding-0 {
-  padding-right:0;
+    padding-right:0;
     padding-left:0;
-}
+    padding-top: 0;
+    padding-bottom: 0;
