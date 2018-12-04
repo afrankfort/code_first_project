@@ -1,7 +1,12 @@
 .color-info {
-    border: 3px solid black;
+    border: 3px;
+  color: black;
 }
 
+.container-fluid {
+    position:relative;
+    width: 90%;
+}
 
 #panels_blue {
     background-color: #A2F3FF;
