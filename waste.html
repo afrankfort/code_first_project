@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>waste</title>
+  <link rel='stylesheet' href='css/bootstrap.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='css/style_template.css' >
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="w3-sidebar w3-bar-block w3-yellow w3-border-right w3-animate-left"
+  style="display:none;z-index:5"
+  id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">close &times;</button>
+  <h3 class="w3-bar-item">menu</h3>
+  <a href="#" class="w3-bar-item w3-button">food</a>
+  <a href="#" class="w3-bar-item w3-button">waste</a>
+  <a href="#" class="w3-bar-item w3-button">activism</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">personal
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block w3-padding">
+      <a href="#" class="w3-bar-item w3-button">diy</a>
+      <a href="#" class="w3-bar-item w3-button">periods</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Page Content -->
+
+<div class = "w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
+</div>
+
+<div class=" w3-teal">
+  <button class="w3-button w3-xxlarge" onclick="w3_open()">&#9776; </button>
+  <div class="w3-container  w3-xlarge">
+    <h2>waste</h2>
+  </div>
+</div>
+
+</div>
+<div class=" factsheet w3-container">
+  <div id="diy">
+    <h2><small>plastic</small></h2>
+    <div class='row'>
+      <div class='col-sm-4'>
+        <div class="card text-white bg-info mb-3">
+          <img class= "img-circle" src=''>
+          <blockquote>
+            <p>factoids</p>
+            <small>..</small>
+          </blockquote>
+        </div>
+      </div>
+      <div class='col-sm-4'>
+        <div class="card text-white bg-info mb-3">
+          <img class= "img-circle" src=''>
+          <blockquote>
+            <p></p>
+            <small>...</small>
+          </blockquote>
+        </div>
+      </div>
+      <div class='col-sm-4'>
+        <div class="card text-white bg-info mb-3">
+          <img class="img-circle" src=''>
+          <blockquote>
+            <p></p>
+            <small>...</small>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+
+    <div id='home'>
+      <h2><small>fashion</small></h2>
+      <div class='row'>
+        <div class='col-sm-4'>
+          <div class="card text-white bg-info mb-3">
+            <img class= "img-circle" src=''>
+            <blockquote>
+              <p>fast fashion</p>
+              <small>...</small>
+            </blockquote>
+          </div>
+        </div>
+        <div class='col-sm-4'>
+          <div class="card text-white bg-info mb-3">
+            <img class="img-circle" src=''>
+            <blockquote>
+              <p>slavery</p>
+              <small>...</small>
+            </div>
+          </div>
+          <div class='col-sm-4'>
+            <div class="card text-white bg-info mb-3">
+              <img class="img-circle" src=''>
+              <blockquote>
+                <p>...</p>
+                <small>...</small>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id='home' >
+        <h2><small>reducing your impact</small></h2>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <div class="card text-white bg-info mb-3">
+              <img class= "img-circle" src=''>
+              <blockquote>
+                <p>the five rs</p>
+                <small>refuse, reduce, reuse, recycle, rot</small>
+              </blockquote>
+            </div>
+          </div>
+          <div class='col-sm-4'>
+            <div class="card text-white bg-info mb-3">
+              <img class="img-circle" src=''>
+              <blockquote>
+                <p>zero waste shopping</p>
+                <small>biodegradable - how to bin, kitchen alternatives, zero plastic or zero waste shops</small>
+              </div>
+            </div>
+            <div class='col-sm-4'>
+              <div class="card text-white bg-info mb-3">
+                <img class="img-circle" src=''>
+                <blockquote>
+                  <p>concious fashion</p>
+                  <small>charity shopping and sustainable brands, giving away toiletires, homeless chariies, refugee stuff</small>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+
+    <div class="footer">
+      <p>say hey</p>
+      <form action="/join-email">
+        <input type="text" placeholder="Email address" required>
+        <button type="submit" required>Submit</button>
+      </form>
+
+    </div>
+
+    <!--javascript-->
+
+    <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
+  </script>
+
+
+</body>
+</html>
