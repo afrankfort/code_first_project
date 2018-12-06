@@ -1,7 +1,9 @@
-h1 {
+h2 {
   font-size: 40px;
   text-align: center;
-  color: grey;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 body {
@@ -50,7 +52,7 @@ body {
 }
 
 #grid-image {
-  height: 250px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
@@ -60,3 +62,10 @@ body {
     padding-left:0;
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+.column {
+      min-width: 300px;
+       display: inline-block;
+       vertical-align: top;
+     }
