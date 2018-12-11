@@ -12,40 +12,23 @@
 <body style="background-color:#D7CCEB">
   <!-- Sidebar -->
   <div class="w3-sidebar w3-bar-block w3-yellow w3-border-right w3-animate-left"
-  style="display:none;z-index:5"
-  id="mySidebar">
-   <button onclick="w3_close()" class="w3-bar-item w3-large">close &times;</button>
-  <h3 class="w3-bar-item">menu</h3>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">waste
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="w3-dropdown-content w3-bar-block w3-padding">
-        <a href="#" class="w3-bar-item w3-button">plastic</a>
-        <a href="#" class="w3-bar-item w3-button">recycling</a>
-      </div>
-    </div>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">food
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="w3-dropdown-content w3-bar-block w3-padding">
-        <a href="#" class="w3-bar-item w3-button">food waste</a>
-        <a href="#" class="w3-bar-item w3-button">diet</a>
-        <a href="#" class="w3-bar-item w3-button">growing your own</a>
-      </div>
-    </div>
+    style="display:none;z-index:5"
+    id="mySidebar">
+    <button onclick="w3_close()" class="w3-bar-item w3-large">close &times;</button>
+    <h3 class="w3-bar-item">menu</h3>
+    <a href="food.html" class="w3-bar-item w3-button">food</a>
+    <a href="waste.html" class="w3-bar-item w3-button">waste</a>
+    <a href="activism.html" class="w3-bar-item w3-button">activism</a>
     <div class="w3-dropdown-hover">
       <button class="w3-button">personal
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="w3-dropdown-content w3-bar-block w3-padding">
-        <a href="#" class="w3-bar-item w3-button">diy</a>
-        <a href="#" class="w3-bar-item w3-button">fashion</a>
-        <a href="#" class="w3-bar-item w3-button">periods</a>
+        <a href="diy.html" class="w3-bar-item w3-button">diy</a>
+        <a href="periods.html" class="w3-bar-item w3-button">periods</a>
       </div>
     </div>
-    <a href="#" class="w3-bar-item w3-button">activism</a>
+  </div>
   </div>
 
 <!-- Page Content -->
@@ -175,27 +158,27 @@
 <!--footer-->
 
 <div class="footer">
-  <p>say hey</p>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="https://www.pinterest.co.uk/abifrankfort/code-first-project/sustainability-tips-and-tricks/" class="fa fa-pinterest"></a>
   <form action="/join-email">
-    <input type="text" placeholder="Email address" required>
+    <input type="text" placeholder="say hello" required>
     <button type="submit" required>Submit</button>
-  </form>
-</div>
-</div>
+    </form>
+  </div>
 
-<!--javascript-->
+
+  <!--javascript-->
 
 <script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
-function w3_close() {
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+      }
+  function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
+  }
+  </script>
 
 </body>
 </html>
