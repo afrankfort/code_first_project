@@ -10,7 +10,7 @@
   <link rel="stylesheet" href='css/footer.css'>
 </head>
 
-<body>
+<body style="background-color:#D7CCEB">
   <!-- Sidebar -->
   <div class="w3-sidebar w3-bar-block w3-yellow w3-border-right w3-animate-left"
   style="display:none;z-index:5"
@@ -32,6 +32,7 @@
 </div>
 </div>
 
+
 <!-- Page Content -->
 
 <div class = "w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
@@ -41,17 +42,18 @@
   <button class="w3-button w3-xxlarge" onclick="w3_open()">&#9776; </button>
   <div class="w3-container  w3-xlarge">
     <h2>DIY Beauty and Home</h2>
-    <small>A great way to reduce plastics use is making homemade products for your skin and the home.</small>
  </div>
 </div>
 
 <div class="w3-container">
   <div id="diy" class="text-center">
     <h2><small>Beauty</small></h2>
+    <small>A great way to reduce plastics use is by making homemade products for your beauty regime and the home.</small>
+    <p></p>
     <div class='row'>
       <div class='col-sm-3'>
         <div class="card text-white bg-info mb-3">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="./images/applecv.jpg" alt="ACV Toner">
 
         <blockquote>
     <p>Apple Cider Toner</p>
@@ -73,7 +75,7 @@
   </div>
       <div class='col-sm-6'>
         <div class="card text-white bg-info mb-3">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="./images/Rosewater_Toner.jpg" alt="Card image cap">
 
         <blockquote>
       <p>Rose water Toner</p>
@@ -110,7 +112,7 @@
   </div>
       <div class='col-sm-3'>
         <div class="card text-white bg-info mb-3"style="width: 25rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="./images/Shaving-cream-recipe.jpg" alt="Card image cap">
         <blockquote>
       <p>Shaving Cream</p>
       <small></small>
@@ -138,14 +140,14 @@
       <div class='row'>
         <div class='col-sm-3'>
           <div class="card text-white bg-info mb-3">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="./images/spray mist.jpg" alt="Card image cap">
         <blockquote>
       <p>Glass cleaner</p>
       <small>Get your windows and mirrors squeaky clean with this easy formula.</small>
       <p>You need:</p>
       <ul>
-        <li>1/2 cup vinegar</li>
-        <li>1/2 cup water</li>
+        <li>120ml vinegar</li>
+        <li>120ml water</li>
       </ul>
       <p>Directions:</p>
       <ol>
@@ -156,26 +158,27 @@
     </div>
     <div class='col-sm-4'>
       <div class="card text-white bg-info mb-3">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" src="./images/clean-toilet.jpg" alt="Card image cap">
         <blockquote>
           <p>Toilet cleaner</p>
           <small>After you've made your mixture pour directly into the toilet and scrub away.</small>
           <p></p>
           <p>You need:</p>
           <ul>
-            <li>Mix 1/2 cup baking soda</li>
-            <li>1/2 cup white vinegar</li>
-          </li>a drop or two of natural phosphate-free dish soap</li>
+            <li>65g baking soda</li>
+            <li>120ml white vinegar</li>
+            <li>a drop or two of natural phosphate-free dish soap</li>
           </ul>
           <p>Directions:</p>
           <ol>
+            <li>Mix solution</li>
             <li>Pour into spray bottle and clean dirt away!</li>
             <li>Using old cotton clothes such as tshirts, underwear and vests as rags is a great way to repurpose worn out and damaged fabrics and minimise the need to buy synthetics cloths.</li>
     </div>
   </div>
       <div class='col-sm-3'>
         <div class="card text-white bg-info mb-3"style="width: 25rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="./images/hero-diy-air-freshener.jpg" alt="Card image cap">
 
         <blockquote>
           <p>Air freshener</p>
@@ -211,19 +214,19 @@
   </form>
 </div>
 
-<!--javascript-->
+
+  <!--javascript-->
 
 <script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
-function w3_close() {
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+      }
+  function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
+  }
+  </script>
 
 </body>
 </html>
