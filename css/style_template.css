@@ -3,10 +3,10 @@ h2 {
 }
 .header {
   background-color: #A2FFC8;
+  padding-bottom: 40px;
 }
-.card-img{
-  height: 300px;
-  width: 100%;
+body {
+  background-color:#D7CCEB;
 }
 .footer {
    position: ;

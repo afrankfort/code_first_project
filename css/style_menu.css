@@ -2,16 +2,9 @@ h2 {
   font-size: 40px;
   text-align: center;
   color: white;
-  padding-bottom: 20px;
   padding-top: 20px;
 }
-
 body {
-  max-width: ;
-  margin-left:;
-  margin-top:;
-  margin-bottom:;
-  max width: ;
   background-color: #FFE1B2;
 }
 
@@ -19,8 +12,11 @@ body {
   position:relative;
   width: 100%;
 }
+.header {
+  background-color: #A2FFC8;
+  padding-bottom: 40px;
 
-.img-responsive {
+#grid-img {
   opacity: 1;
   display: block;
   position:relative;
@@ -57,12 +53,6 @@ body {
   object-fit: cover;
 }
 
-.padding-0 {
-    padding-right:0;
-    padding-left:0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
 
 .column {
       min-width: 300px;
