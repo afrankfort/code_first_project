@@ -4,6 +4,10 @@ h2 {
 .header {
   background-color: #A2FFC8;
 }
+.card-img{
+  height: 300px;
+  width: 100%;
+}
 .footer {
    position: ;
    left: 0;
